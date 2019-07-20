@@ -16,4 +16,4 @@ Lecture 1 Introduction to Reinforcement Learning
 
 2.1 序列决策
 
-通常我们考虑制定一个好的决策序列的问题。为了标准化这个问题，在离散的设置中，一个行为体进行一个动作（actions）序列 $\lbrace a_t \rbrace$
+通常我们考虑制定一个好的决策序列的问题。为了标准化这个问题，在离散的设置中，一个行为体进行一个动作（actions）序列 $\lbrace a_t \rbrace$，观测到一个观测值（observations）序列 $\lbrace o_t \rbrace$ 并获得一个奖励（rewards）序列 $\lbrace r_t \rbrace$。
