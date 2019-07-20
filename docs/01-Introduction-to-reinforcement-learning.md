@@ -33,8 +33,8 @@ P(s_{t+1}|s_t,a_t,...,s_1,a_1)=P\left( s_{t+1}|s_t,a_t \right),
 $$
 在实践中，这一性质足以满足我们的要求。确保马尔可夫性质成立的一个小技巧是使用历史 $h_t$ 作为我们的状态。
 
-&emsp;&emsp;通常我们认为奖励 $r_t$ 在状态转换时被获得 $s_t\stackrel{a_t}{\longrightarrow}s_{t+1}$，奖励函数（reward function）被用来预测奖励：$R(s,a,s')=\mathbb{E}[r_t|s_t=s,a_t=a,s_{t+1}=s']$。我们通常将奖励函数定义为以下的形式：$R(s)=\mathbb{E}[r_t|s_t=s]$ 或 $R(s,a)=/mathbb{E}[r_t|s_t=s,a_t=a]$。奖励函数有时也会存在退化情况，也就是说，在给定 $s_t=s$ 时，$r_t$ 是一个固定值。
+&emsp;&emsp;通常我们认为奖励 $r_t$ 在状态转换时被获得 $s_t\stackrel{a_t}{\longrightarrow}s_{t+1}$，奖励函数（reward function）被用来预测奖励：$R(s,a,s')=\mathbb{E}[r_t|s_t=s,a_t=a,s_{t+1}=s']$。我们通常将奖励函数定义为以下的形式：$R(s)=\mathbb{E}[r_t|s_t=s]$ 或 $R(s,a)=\mathbb{E}[r_t|s_t=s,a_t=a]$。奖励函数有时也会存在退化情况，也就是说，在给定 $s_t=s$ 时，$r_t$ 是一个固定值。
 
-&emsp;&emsp;模型有上述状态转移和奖励函数组成。
+&emsp;&emsp;模型由上述状态转移和奖励函数组成。
 
 ### 2.3 强化学习行为体的组成
