@@ -26,7 +26,7 @@ Lecture 1 Introduction to Reinforcement Learning
 
 2.2 模型建立
 
-定义 $S$ 为可能的状态的集合，$s_t$ 为观测到的状态序列，观测值以时间为下标，$A$ 为可能的动作的集合，$P(s_{t+1}|s_t,a_t,...,s_1,a_1)$ 为历史状态和历史动作的函数，表示在 $S$ 上的状态转移（transition dynamics）概率分布。在强化学习中，我们通常假设马尔可夫性质（Markov Property）：
+&emsp&emsp定义 $S$ 为可能的状态的集合，$s_t$ 为观测到的状态序列，观测值以时间为下标，$A$ 为可能的动作的集合，$P(s_{t+1}|s_t,a_t,...,s_1,a_1)$ 为历史状态和历史动作的函数，表示在 $S$ 上的状态转移（transition dynamics）概率分布。在强化学习中，我们通常假设马尔可夫性质（Markov Property）：
 $$
 P(s_{t+1}|s_t,a_t,...,s_1,a_1)=P\left( s_{t+1}|s_t,a_t \right),
 \tag{1}
