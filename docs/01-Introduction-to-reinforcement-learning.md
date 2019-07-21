@@ -64,8 +64,10 @@ $$
 
 ## 参考文献
 
-> Mnih, Volodymyr, et al. "Human-level control through deep reinforcement learning." Nature 518.7540 (2015):529-533.
+> Volodymyr Mnih, et al. "Human-level control through deep reinforcement learning." Nature 518.7540 (2015): 529-533.
 
-> Pfau, David, and Oriol. "Connecting generative adversarial networks and actor-critic methods." arXiv preprint arXiv: 1610.01945 (2016).
+> David Pfau, and Oriol Vinyals. "Connecting generative adversarial networks and actor-critic methods." arXiv preprint arXiv: 1610.01945 (2016).
 
-> Silver, David, et al. "Mastering the game of Go with deep neural networks and tree search." Nature 529.7587 (2016):484-489.
+> David Silver, et al. "Mastering the game of Go with deep neural networks and tree search." Nature 529.7587 (2016): 484-489.
+
+> David Silver. "[Reinforcement Learning](http://www0.cs.ucl.ac.uk/staff/d.silver/web/Teaching_files/intro_RL.pdf)." 15 Jan. 2016. Reinforcement Learning, UCL.
