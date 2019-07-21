@@ -44,4 +44,3 @@ $$
 V^{\pi}(s)=\mathbb{E}_{\pi},
 \tag{2}
 $$
-[r_t+\gamma r_{t+1}+\gamma^2r_{t+2}+...|s_t=s]
