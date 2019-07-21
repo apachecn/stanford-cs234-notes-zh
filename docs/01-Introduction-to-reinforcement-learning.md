@@ -62,9 +62,9 @@ $$
 
 <div align=center><img src="fig1_2.png"/></div>
 
-<center>
-图2：强化学习行为体分类。图源 [David Silver](http://www0.cs.ucl.ac.uk/staff/d.silver/web/Teaching_files/intro_RL.pdf)。
-</center>
+<div align=center>
+图2：强化学习行为体分类。图源 [David Silver](http://www0.cs.ucl.ac.uk/staff/d.silver/web/Teaching_files/intro_RL.pdf)
+</div>
 
 ### 2.5 连续空间
 
