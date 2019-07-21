@@ -51,3 +51,21 @@ $$
 &emsp;&emsp;然而，对于本课程的大部分内容，我们考虑完全可观测（fully observable）的情况，也就是说 $o_t=s_t$ 而且我们假设 $s_t^a=s_t$。
 
 ### 2.4 强化学习行为体的分类
+
+&emsp;&emsp;有很多种方式进行分类，如表1，并且在每种分类下，行为体的种类并不一定单一，例如，演员-评论家（actor critic）行为体也可以是无模型的。对行为体分类的方法概述如图2所示。
+
+表1
+
+图2
+
+### 2.5 连续空间
+
+&emsp;&emsp;为简单起见，我们的讨论只集中在了具有离散时间步的离散状态和动作空间。然而，有许多应用，特别是在机器人和控制领域，最适合用连续状态和动作空间进行建模。对上述讨论进行推广，可以使其适用于这些连续空间的情况。
+
+## 参考文献
+
+> Mnih, Volodymyr, et al. "Human-level control through deep reinforcement learning." Nature 518.7540 (2015):529-533.
+
+> Pfau, David, and Oriol. "Connecting generative adversarial networks and actor-critic methods." arXiv preprint arXiv: 1610.01945 (2016).
+
+> Silver, David, et al. "Mastering the game of Go with deep neural networks and tree search." Nature 529.7587 (2016):484-489.
