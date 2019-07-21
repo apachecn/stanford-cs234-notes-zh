@@ -11,13 +11,15 @@
 
 ## 贡献指南
 
-笔记整理活动正在进行，请查看[贡献指南](CONTRIBUTING.md)，并在[整体进度](https://github.com/apachecn/stanford-cs234-notes-zh/issues/1)中领取任务。
+项目当前处于翻译阶段，请查看[贡献指南](CONTRIBUTING.md)，并在[整体进度](https://github.com/apachecn/seaborn-doc-zh/issues/1)中领取任务。
 
 > 请您勇敢地去翻译和改进翻译。虽然我们追求卓越，但我们并不要求您做到十全十美，因此请不要担心因为翻译上犯错——在大部分情况下，我们的服务器已经记录所有的翻译，因此您不必担心会因为您的失误遭到无法挽回的破坏。（改编自维基百科）
 
 ## 联系方式
 
 ### 负责人
+
++   [飞龙](https://github.com/wizardforcel)：562826179
 
 ### 其他
 
