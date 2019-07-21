@@ -62,7 +62,8 @@ $$
 \begin{array}{c|ccc}
 Agent type & \text{Policy} & \text{Value Function} & \text{Model} \\
 \hline
-Value Based & Implicit & \surd & ? \\
+Value Based & Implicit & \surd & ?
+\end{array}
 
 <div align=center><img src="fig1_2.png"/></div>
 
