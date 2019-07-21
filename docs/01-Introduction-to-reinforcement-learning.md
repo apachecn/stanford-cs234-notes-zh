@@ -20,7 +20,9 @@
 
 ![](fig1_1.png)
 
-<center>图1：行为体与环境交互。</center>
+<center>
+图1：行为体与环境交互。
+</center>
 
 &emsp;&emsp;当序列决策制定过程的模型已知时，在一些确定的和有限的设定下，类似 A* 搜索 （A* search）和最大最小（minimax）的 AI 技术可以被应用于寻找最优动作序列。
 
@@ -60,7 +62,9 @@ $$
 
 ![](fig1_2.png)
 
-<center>图2：强化学习行为体分类（图源 [David Silver](http://www0.cs.ucl.ac.uk/staff/d.silver/web/Teaching_files/intro_RL.pdf)）。</center>
+<center>
+图2：强化学习行为体分类。图源 [David Silver](http://www0.cs.ucl.ac.uk/staff/d.silver/web/Teaching_files/intro_RL.pdf)
+</center>
 
 ### 2.5 连续空间
 
