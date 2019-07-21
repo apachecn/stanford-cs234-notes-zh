@@ -59,7 +59,10 @@ $$
 
 &emsp;&emsp;有很多种方式进行分类，如表1，并且在每种分类下，行为体的种类并不一定单一，例如，演员-评论家（actor critic）行为体也可以是无模型的。对行为体分类的方法概述如图2所示。
 
-表1
+\begin{array}{c|ccc}
+Agent type & \text{Policy} & \text{Value Function} & \text{Model} \\
+\hline
+Value Based & Implicit & \surd & ? \\
 
 <div align=center><img src="fig1_2.png"/></div>
 
