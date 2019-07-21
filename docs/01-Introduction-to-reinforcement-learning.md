@@ -18,9 +18,9 @@
 
 &emsp;&emsp;通常我们考虑制定一个好的决策序列的问题。为了标准化这个问题，在离散的设置中，一个行为体进行一个动作（actions）序列 $\lbrace a_t \rbrace$，观测到一个观测值（observations）序列 $\lbrace o_t \rbrace$ 并获得一个奖励（rewards）序列 $\lbrace r_t \rbrace$。我们定义在时刻 t 的历史（history）为 $h_t=(a_1,o_1,r_1,...,a_t,o_t,r_t)$，行为体选择的下一个动作可以被视为历史的函数，也就是说，$a_{t+1}=f(h_t)$，并且序列决策制定的问题可以被认为是如何恰当地定义并计算这个函数。
 
-图1
+![](fig1_1.png)
 
-![](fig1_1.png){:height="50%" width="50%"}
+<center>图1：行为体与环境交互。</center>
 
 &emsp;&emsp;当序列决策制定过程的模型已知时，在一些确定的和有限的设定下，类似 A* 搜索 （A* search）和最大最小（minimax）的 AI 技术可以被应用于寻找最优动作序列。
 
