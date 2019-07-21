@@ -39,8 +39,15 @@ $$
 
 ### 2.3 强化学习行为体的组成
 
-&emsp;&emsp;首先，我们定义行为体状态（agent state）为历史的函数 $s_t^a=g(h_t)$。强化学习行为体通常包括以下三项中的一项或多项：策略（policy），值函数（value function）和可选的模型（model）。策略 $\pi$ 是从行为体状态到一个动作的映射 $\pi(s_t^a)\in A$，有时策略是在动作的随机分布 $\pi(a_t|s_t^a)$，当行为体要采取一个动作并且 $\pi$ 是随机的时，行为体以概率 $P(a_t=a)=\pi(a|s_t^a)$ 选择一个动作 $a\in A$。给定策略 $\pi$ 和衰减因子（discount factor）$\gamma\in[0,1]$，值函数（value function）$V^{\pi}$ 被定义为衰减奖励总额的期望：
+&emsp;&emsp;我们定义行为体状态（agent state）为历史的函数 $s_t^a=g(h_t)$。强化学习行为体通常包括以下三项中的一项或多项：策略（policy），值函数（value function）和可选的模型（model）。策略 $\pi$ 是从行为体状态到一个动作的映射 $\pi(s_t^a)\in A$，有时策略是在动作的随机分布 $\pi(a_t|s_t^a)$，当行为体要采取一个动作并且 $\pi$ 是随机的时，行为体以概率 $P(a_t=a)=\pi(a|s_t^a)$ 选择一个动作 $a\in A$。给定策略 $\pi$ 和衰减因子（discount factor）$\gamma\in[0,1]$，值函数（value function）$V^{\pi}$ 被定义为衰减奖励总额的期望：
 $$
-V^{\pi}(s)=\mathbb{E}_{\pi}\lbrack r_t+\gamma r_{t+1} \rbrack,
+V^{\pi}(s)=\mathbb{E}_{\pi}\lbrack r_t+\gamma r_{t+1}+\gamma^2r_{t+2}+...|s_t=s \rbrack,
 \tag{2}
 $$
+这里 $\mathbb{E}_{\pi}$ 表示对通过使用策略 $\pi$ 遇到的状态求期望，衰减因子 $\gamma$ 用来对立即奖励和延迟奖励加权。最后，一个强化学习行为体可能有类似2.2节定义的模型，如果行为体拥有模型，我们称之为有模型（model-based）行为体；如果它不包含模型，则称之为无模型（model-free）行为体。
+
+&emsp;&emsp;到目前为止，我们已经在一个非常常规的环境中考虑了定义，但我们尚未对 $o_t$ 和 $s_t$ 的关系做出任何假设。我们称 $o_t\neq s_t$ 的情况为部分可观测的（partially observable）。在部分可观测的设定中，为了定义可信状态（belief state）$s_t^a$，强化学习算法通常使用基于真实世界状态的概率分布。
+
+&emsp;&emsp;然而，对于本课程的大部分内容，我们考虑完全可观测（fully observable）的情况，也就是说 $o_t=s_t$ 而且我们假设 $s_t^a=s_t$。
+
+### 2.4 强化学习行为体的分类
