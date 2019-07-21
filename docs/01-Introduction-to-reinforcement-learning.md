@@ -62,6 +62,14 @@ $$
 Agent type | Policy | Value Function | Model
  :-: | :-: | :-: | :-:
 Value Based | Implicit | &radic; | ?
+Policy Based | &radic; | X | ?
+Actor Critic | &radic; | &radic; | ?
+Model Based | ? | ? | &radic;
+Model Free | ? | ? | X
+
+<div align=center>
+表1：强化学习行为体分类，&radic; 表示行为体包含这一部分，X 表示行为体一定不包含这一部分，? 表示行为体可能含有这一部分。
+</div>
 
 <div align=center><img src="fig1_2.png"/></div>
 
