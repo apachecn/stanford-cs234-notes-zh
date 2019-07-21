@@ -41,7 +41,7 @@ $$
 
 &emsp;&emsp;首先，我们定义行为体状态（agent state）为历史的函数 $s_t^a=g(h_t)$。强化学习行为体通常包括以下三项中的一项或多项：策略（policy），值函数（value function）和可选的模型（model）。策略 $\pi$ 是从行为体状态到一个动作的映射 $\pi(s_t^a)\in A$，有时策略是在动作的随机分布 $\pi(a_t|s_t^a)$，当行为体要采取一个动作并且 $\pi$ 是随机的时，行为体以概率 $P(a_t=a)=\pi(a|s_t^a)$ 选择一个动作 $a\in A$。给定策略 $\pi$ 和衰减因子（discount factor）$\gamma\in[0,1]$，值函数（value function）$V^{\pi}$ 被定义为衰减奖励总额的期望：
 $$
-V^{\pi}(s)=\mathbb{E}_{\pi} r_t,
+V^{\pi}(s)=\mathbb{E}_{\pi},
 \tag{2}
 $$
 [r_t+\gamma r_{t+1}+\gamma^2r_{t+2}+...|s_t=s]
