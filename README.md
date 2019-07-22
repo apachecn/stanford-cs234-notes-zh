@@ -1,6 +1,6 @@
-# 斯坦福 cs234 强化学习中文笔记
+# 斯坦福 cs234 强化学习中文讲义
 
-> 课程：[斯坦福 cs234 强化学习课程](https://www.bilibili.com/video/av47812079)
+> 课程：[CS234: Reinforcement Learning Winter 2019](https://web.stanford.edu/class/cs234/schedule.html)
 > 
 > 协议：[CC BY-NC-SA 4.0](http://creativecommons.org/licenses/by-nc-sa/4.0/)
 > 
