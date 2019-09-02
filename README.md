@@ -24,6 +24,7 @@
 ### 负责人
 
 +   [飞龙](https://github.com/wizardforcel)：562826179
++   [Everglow0214](https://github.com/Everglow0214)
 
 ### 其他
 
